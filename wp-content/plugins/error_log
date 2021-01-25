@@ -1,0 +1,28 @@
+[07-Oct-2017 04:18:03 Australia/Sydney] PHP Fatal error:  Call to undefined function add_action() in /home/aseonlin/public_html/wp-content/plugins/hello.php on line 60
+[09-Oct-2017 17:48:19 Australia/Sydney] PHP Fatal error:  Call to undefined function add_action() in /home/aseonlin/public_html/wp-content/plugins/hello.php on line 60
+[01-Nov-2017 22:24:36 Australia/Sydney] PHP Fatal error:  Call to undefined function add_action() in /home/aseonlin/public_html/wp-content/plugins/hello.php on line 60
+[01-Nov-2017 22:27:58 Australia/Sydney] PHP Fatal error:  Call to undefined function add_action() in /home/aseonlin/public_html/wp-content/plugins/hello.php on line 60
+[08-Nov-2017 15:39:40 Australia/Sydney] PHP Fatal error:  Call to undefined function add_action() in /home/aseonlin/public_html/wp-content/plugins/hello.php on line 60
+[10-Nov-2017 22:15:28 Australia/Sydney] PHP Fatal error:  Call to undefined function add_action() in /home/aseonlin/public_html/wp-content/plugins/hello.php on line 60
+[18-Nov-2017 19:23:38 Australia/Sydney] PHP Fatal error:  Call to undefined function add_action() in /home/aseonlin/public_html/wp-content/plugins/hello.php on line 60
+[12-Jan-2018 23:30:47 Australia/Sydney] PHP Fatal error:  Call to undefined function add_action() in /home/aseonlin/public_html/wp-content/plugins/hello.php on line 60
+[01-Jun-2018 02:32:00 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/aseonlin/public_html/wp-content/plugins/hello.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/aseonlin/public_html/wp-content/plugins/hello.php on line 60
+[15-Jul-2018 20:48:38 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/aseonlin/public_html/wp-content/plugins/hello.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/aseonlin/public_html/wp-content/plugins/hello.php on line 60
+[18-Jul-2018 07:38:09 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/aseonlin/public_html/wp-content/plugins/hello.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/aseonlin/public_html/wp-content/plugins/hello.php on line 60
+[31-Jan-2019 07:41:15 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/aseonlin/public_html/wp-content/plugins/hello.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/aseonlin/public_html/wp-content/plugins/hello.php on line 60
+[06-Apr-2019 00:29:06 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/aseonlin/public_html/wp-content/plugins/hello.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/aseonlin/public_html/wp-content/plugins/hello.php on line 60

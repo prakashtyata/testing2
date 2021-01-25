@@ -1,0 +1,473 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Request a Quote\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-26 05:24+0530\n"
+"PO-Revision-Date: 2017-01-26 05:25+0530\n"
+"Last-Translator: ZippyDev Software Solutions Pvt Ltd <dvin4580@gmail.com>\n"
+"Language-Team: Kiran P <dvin4580@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: ../templates\n"
+"X-Poedit-SearchPath-2: ../js\n"
+
+#: ../class-dvin-wcql-admin.php:109 ../templates/form.php:32
+msgid "Request a Quote"
+msgstr ""
+
+#: ../class-dvin-wcql-ajax.php:67
+msgid "Successfully added"
+msgstr ""
+
+#: ../class-dvin-wcql-ajax.php:72
+msgid "Already Exists. Browse Quotelist."
+msgstr ""
+
+#: ../class-dvin-wcql-ajax.php:88 ../class-dvin-wcql-ajax.php:116
+msgid "List Updated."
+msgstr ""
+
+#: ../class-dvin-wcql-ajax.php:187 ../class-dvin-wcql-ajax.php:190
+msgid "Please enter "
+msgstr ""
+
+#: ../class-dvin-wcql-ajax.php:187 ../templates/form.php:19
+msgid "Name"
+msgstr ""
+
+#: ../class-dvin-wcql-ajax.php:190 ../class-dvin-wcql-ajax.php:195
+#: ../templates/admin_template.php:30 ../templates/form.php:23
+msgid "Email"
+msgstr ""
+
+#: ../class-dvin-wcql-ajax.php:222
+msgid "Email Sent Successfully"
+msgstr ""
+
+#: ../class-dvin-wcql-ajax.php:225
+msgid "There was a problem sending your message. Please try again."
+msgstr ""
+
+#: ../class-dvin-wcql-ajax.php:230
+msgid "Please select products to send."
+msgstr ""
+
+#: ../class-dvin-wcql-ui.php:22 ../class-dvin-wcql-ui.php:92
+msgid "Add to Quote"
+msgstr ""
+
+#: ../class-dvin-wcql-ui.php:63 ../class-dvin-wcql-ui.php:72
+msgid "Product Added to Quote"
+msgstr ""
+
+#: ../class-dvin-wcql-ui.php:66 ../class-dvin-wcql-ui.php:75
+msgid "Remove from Quote"
+msgstr ""
+
+#: ../class-dvin-wcql-ui.php:119 ../class-dvin-wcql-ui.php:123
+msgid "In Quotelist"
+msgstr ""
+
+#: ../class-dvin-wcql.php:234
+#, php-format
+msgid ""
+"Order Links(%s):<a href=\"%s\">View</a>&nbsp;|&nbsp;<a href=\"%s\">Edit</"
+"a>&nbsp;|&nbsp;<a href=\"%s\">CheckOut</a>"
+msgstr ""
+
+#: ../class-dvin-wcql.php:378
+msgid "Remove this item"
+msgstr ""
+
+#: ../dvin-woocommerce-quotelist.php:864 ../dvin-woocommerce-quotelist.php:868
+msgid "GRAND TOTAL"
+msgstr ""
+
+#: ../dvin-woocommerce-quotelist.php:888
+msgid "Update List"
+msgstr ""
+
+#: ../dvin-woocommerce-quotelist.php:909 ../templates/list-empty.php:7
+msgid "Return To Shop"
+msgstr ""
+
+#: ../metabox.php:11
+msgid "Request a Quote Setting"
+msgstr ""
+
+#: ../metabox.php:38 ../product_cat_metabox.php:10
+#: ../product_cat_metabox.php:43
+msgid "Request a Quote Button"
+msgstr ""
+
+#: ../metabox.php:39 ../metabox.php:46
+msgid "Apply Category Settings"
+msgstr ""
+
+#: ../metabox.php:40 ../metabox.php:47 ../product_cat_metabox.php:12
+#: ../product_cat_metabox.php:19 ../product_cat_metabox.php:45
+#: ../product_cat_metabox.php:52
+msgid "Show Button"
+msgstr ""
+
+#: ../metabox.php:41 ../metabox.php:48 ../product_cat_metabox.php:13
+#: ../product_cat_metabox.php:20 ../product_cat_metabox.php:46
+#: ../product_cat_metabox.php:53
+msgid "Hide Button"
+msgstr ""
+
+#: ../metabox.php:45 ../product_cat_metabox.php:17
+#: ../product_cat_metabox.php:50
+msgid "Add to Cart Button"
+msgstr ""
+
+#: ../product_cat_metabox.php:9 ../product_cat_metabox.php:42
+msgid "Request a Quote Settings"
+msgstr ""
+
+#: ../product_cat_metabox.php:11 ../product_cat_metabox.php:18
+#: ../product_cat_metabox.php:44 ../product_cat_metabox.php:51
+msgid "Apply Parent Category Settings"
+msgstr ""
+
+#: ../templates/admin_template.php:13
+msgid "Plugin Version"
+msgstr ""
+
+#: ../templates/admin_template.php:24
+msgid "Updated Successfully"
+msgstr ""
+
+#: ../templates/admin_template.php:29
+msgid "Settings"
+msgstr ""
+
+#: ../templates/admin_template.php:31
+msgid "Form to Order Map Fields"
+msgstr ""
+
+#: ../templates/admin_template.php:32
+msgid "Entries"
+msgstr ""
+
+#: ../templates/email_settings_template.php:7
+msgid "Email Settings"
+msgstr ""
+
+#: ../templates/email_settings_template.php:12
+msgid "Admin Email"
+msgstr ""
+
+#: ../templates/email_settings_template.php:18
+msgid "Postfix Admin Email"
+msgstr ""
+
+#: ../templates/email_settings_template.php:25
+msgid ""
+"If your webhost using Postfix as Email server, Please provide valid domain "
+"email address. It would be used as From address while sending email to "
+"Admin. It is recommended to use this option even if you are not using "
+"Postfix server  to avoid email not sending issues."
+msgstr ""
+
+#: ../templates/email_settings_template.php:28
+msgid "Send Copy to Requestor"
+msgstr ""
+
+#: ../templates/email_settings_template.php:34
+msgid "Subject"
+msgstr ""
+
+#: ../templates/email_settings_template.php:40
+msgid "Body"
+msgstr ""
+
+#: ../templates/email_settings_template.php:48
+msgid "Allowed tags"
+msgstr ""
+
+#: ../templates/email_settings_template.php:49
+msgid "Filled in Name field in the form"
+msgstr ""
+
+#: ../templates/email_settings_template.php:50
+msgid "Filled in Email field in the form"
+msgstr ""
+
+#: ../templates/email_settings_template.php:51
+msgid "User's Quotelist in table format"
+msgstr ""
+
+#: ../templates/email_settings_template.php:52
+msgid "Total Price"
+msgstr ""
+
+#: ../templates/email_settings_template.php:53
+msgid "Comments"
+msgstr ""
+
+#: ../templates/email_settings_template.php:54
+#: ../templates/quotelist_top.php:43
+msgid "SKU"
+msgstr ""
+
+#: ../templates/email_settings_template.php:55
+msgid "It shows the links to \"View Order\", \"Edit Order\",\"CheckOut Order\""
+msgstr ""
+
+#: ../templates/email_settings_template.php:60
+msgid "Quote List Table style"
+msgstr ""
+
+#: ../templates/email_settings_template.php:66
+msgid "Quote List Table header style"
+msgstr ""
+
+#: ../templates/email_settings_template.php:72
+msgid "Quote List Table row style"
+msgstr ""
+
+#: ../templates/email_settings_template.php:78
+msgid "Quote List Table cell style"
+msgstr ""
+
+#: ../templates/email_settings_template.php:86
+msgid "Update"
+msgstr ""
+
+#: ../templates/form.php:27
+msgid "Additional details/comments"
+msgstr ""
+
+#: ../templates/list-empty.php:6
+msgid "Your list is currently empty."
+msgstr ""
+
+#: ../templates/mapfields_settings_template.php:4
+msgid "Mappping Fields"
+msgstr ""
+
+#: ../templates/mapfields_settings_template.php:7
+msgid "Order Field"
+msgstr ""
+
+#: ../templates/mapfields_settings_template.php:8
+msgid "Form Field"
+msgstr ""
+
+#: ../templates/mapfields_settings_template.php:19
+msgid "Map"
+msgstr ""
+
+#: ../templates/mini-cart-backup.php:69 ../templates/mini-cart.php:51
+msgid "View Quote List"
+msgstr ""
+
+#: ../templates/mini-cart-backup.php:72 ../templates/mini-cart.php:54
+msgid "No products in the list"
+msgstr ""
+
+#: ../templates/quotelist_top.php:10
+msgid "Sent email to Admin for the quote."
+msgstr ""
+
+#: ../templates/quotelist_top.php:39
+msgid "Product"
+msgstr ""
+
+#: ../templates/quotelist_top.php:40
+msgid "Price"
+msgstr ""
+
+#: ../templates/quotelist_top.php:41
+msgid "Quantity"
+msgstr ""
+
+#: ../templates/quotelist_top.php:42
+msgid "Total"
+msgstr ""
+
+#: ../templates/settings_template.php:10
+msgid "Custom QuoteList URL"
+msgstr ""
+
+#: ../templates/settings_template.php:12
+msgid ""
+"You can provide custom QuoteList URL Page instead of using default provided "
+"by the plugin"
+msgstr ""
+
+#: ../templates/settings_template.php:18
+msgid "Show \"Add to Quotelist\" on Products list page"
+msgstr ""
+
+#: ../templates/settings_template.php:22
+msgid ""
+"Apply show/hide \"Add to Quotelist\" and \"Add to Cart\" buttons setting set "
+"at individual/category level"
+msgstr ""
+
+#: ../templates/settings_template.php:25
+msgid "Position"
+msgstr ""
+
+#: ../templates/settings_template.php:31
+msgid "Use Shortcode"
+msgstr ""
+
+#: ../templates/settings_template.php:33
+msgid ""
+"If you want to position quotelist link on the single page --> Select "
+"position of \"Add to Quotelist\" link/button on single product page"
+msgstr ""
+
+#: ../templates/settings_template.php:36
+msgid "Redirect URL"
+msgstr ""
+
+#: ../templates/settings_template.php:38
+msgid ""
+"If you want to redirect, mention Redirect URL <strong>after submitting form</"
+"strong>, othewise acknowledgement text would be displayed.This is useful for "
+"conversions tracking.<b>This works only for Pluglin provided form NOT for "
+"third Party forms."
+msgstr ""
+
+#: ../templates/settings_template.php:42
+msgid "Add to quotelist link settings"
+msgstr ""
+
+#: ../templates/settings_template.php:47
+msgid "Show \"Add to Quotelist\" as a button instead of a link"
+msgstr ""
+
+#: ../templates/settings_template.php:51
+msgid ""
+"Default to theme colors (or leave unchecked and select custom colors below)"
+msgstr ""
+
+#: ../templates/settings_template.php:54
+msgid "Change Background Color"
+msgstr ""
+
+#: ../templates/settings_template.php:57 ../templates/settings_template.php:64
+msgid "\"Default to theme colors\" must be unchecked"
+msgstr ""
+
+#: ../templates/settings_template.php:61
+msgid "Change Font Color"
+msgstr ""
+
+#: ../templates/settings_template.php:69
+msgid "Redirect to Quote List Page after adding product to the list"
+msgstr ""
+
+#: ../templates/settings_template.php:72
+msgid "Other Settings"
+msgstr ""
+
+#: ../templates/settings_template.php:76
+msgid "Hide Price from Shop and Product Pages"
+msgstr ""
+
+#: ../templates/settings_template.php:80
+msgid ""
+"Hide Price from Shop and Product Pages when  \"Add to Quotelist\" button "
+"enabled"
+msgstr ""
+
+#: ../templates/settings_template.php:84
+msgid "Remove/Hide Price column from Request For Quote Page"
+msgstr ""
+
+#: ../templates/settings_template.php:88
+msgid "Show Price when user logs in"
+msgstr ""
+
+#: ../templates/settings_template.php:92
+msgid ""
+"Remove/Hide Quantity from Product Pages and Request For Quote Page. It also "
+"hides the \"UpdateList\" button"
+msgstr ""
+
+#: ../templates/settings_template.php:96
+msgid "Show SKU column in Request For Quote Page"
+msgstr ""
+
+#: ../templates/settings_template.php:100
+msgid ""
+"Creates Order (require Woocommerce 2.2+). Ensure that you mapped the "
+"fields(please find the tab)"
+msgstr ""
+
+#: ../templates/settings_template.php:103
+msgid "Column settings for Email"
+msgstr ""
+
+#: ../templates/settings_template.php:107
+msgid "Add SKU column to email"
+msgstr ""
+
+#: ../templates/settings_template.php:111
+msgid "Add Price column to email"
+msgstr ""
+
+#: ../templates/settings_template.php:114
+msgid "Use Third Party Forms and Email"
+msgstr ""
+
+#: ../templates/settings_template.php:117
+msgid ""
+"Note:Form and Email setiings has to be  handled from Third Party Pluign "
+"itself."
+msgstr ""
+
+#: ../templates/settings_template.php:121
+msgid "Use Gravity Forms"
+msgstr ""
+
+#: ../templates/settings_template.php:136
+msgid "Use Formidable Forms"
+msgstr ""
+
+#: ../templates/settings_template.php:152
+msgid "Use ContactForm7"
+msgstr ""
+
+#: ../templates/settings_template.php:170
+msgid ""
+"Please remove [dvin-wcql-listing] shortcode in \"Request For Quote\" Page."
+msgstr ""
+
+#: ../templates/settings_template.php:173
+msgid ""
+"Must add [dvin-wcql-listing] shortcode as one of the HTML elements in "
+"Gravity Form where you want to show the listing."
+msgstr ""
+
+#: ../templates/settings_template.php:176
+msgid ""
+"Must add hidden field name of \"quotelisttable\" with value of  "
+"\"[quotelisttable]\" shortcode as one of the HTML elements in Gravity Form."
+msgstr ""
+
+#: ../templates/settings_template.php:189
+msgid "Custom CSS"
+msgstr ""
+
+#: ../templates/settings_template.php:193
+msgid ""
+"Use addquotelistlink class to style the button/link e.g. for alignment, "
+"float:left, float:right etc."
+msgstr ""
+
+#: ../templates/settings_template.php:198
+msgid "Reset to Default Settings"
+msgstr ""

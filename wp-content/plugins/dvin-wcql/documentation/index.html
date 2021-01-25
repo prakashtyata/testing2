@@ -1,0 +1,297 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head lang="en">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Documentation : Woocommerce Request a Quote</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript">
+	$(function(){
+		var toc, position;
+		$(".nav ol li a").click(function(){
+			$(".nav ol li").removeClass('active');
+
+			hlink = $(this).attr("href");
+
+			position  = $(hlink).position().top;
+			$('html, body').animate({scrollTop:position}, 'slow');
+			$(this).parent().addClass('active');
+			return false;
+			});
+	});
+	</script>
+	</head><body>
+<div class="wrapper">
+	<div class="content clearfix">
+
+	<div class="nav">
+
+			<div class="about">
+				<h1>DVin<span>Woocommerce Request For a Quote</span></h1>
+				<span><strong>Created: 22nd December 2013</strong></span>
+				<span><strong>Last Updated: 6th May 2015</strong></span>
+				<span>By: <a href="http://codecanyon.net/user/DVin">DVin</a></span>
+				<span>Contact: <a href="http://codecanyon.net/user/DVin">Contact Form</a> </span>
+				<span>PHP : PHP 5+, MYSQL 5+,  WooCommerce Plugin </span>
+			</div>
+
+		<ol>
+	        <li class="active"><a href="#1">Installation</a></li>
+	        <li><a href="#2">Settings</a></li>
+			<li><a href="#3">Widget</a></li>
+			<li><a href="#4">Email Settings</a></li>
+			<li><a href="#5">FrontEnd Page Customization</a></li>
+	        <li><a href="#6">Credits</a></li>
+        </ol>
+	</div>
+
+
+  <div class="documentation">
+   	<div style="color:red;font-weight:bold;">NOTE : Please refer to updated documentation @ http://qlistdev.zippydev.com/documentation/</div>
+
+	<div id="1">
+		<h2 class="name">01<span>Installation</span></h2>
+<ul>
+	<li>
+		Install plugin by choosing the plugin zip file in Plugins -> Add New and click on Upload link</li>
+	<li>
+		Activate the extension through the &lsquo;Plugins&rsquo; menu in WordPress</li>
+<li>Ensure that 'Request For a Quote' page is in main menu. If page does not appear in the menu, then by going to wordpress dashboard -> Appearance -> Menus.</li>
+<img src="assets/screenshot1.png"/>
+</ul>
+	</div>
+	<div id="2">
+		<h2 class="name">02<span>Settings</span></h2>
+		<ul>
+		<li>
+			<p>Settings is the place where you can change the properties, show/hide or position of
+		 Add to Quotelist Button/link, Add To Cart Button/link etc. Detailed description
+		 given below:</p></li>
+		<li><p>Show/Hide Buttons</p>
+			<p>
+				You can have a global setting of show/hide buttons(as explained in <i>Position</i> section below. But you can also control the show/hide  Quote and Cart buttons at Individual/Category level. <br/>
+				Please see the screenshot below:
+				<p><img src="assets/screenshot10.png" alt=""><br/> <i>Individual Product Page</i> </p>
+				<p><img src="assets/screenshot11.png" alt=""><br/> <i>Product Category Page</i> </p>
+
+			</p>
+			<strong> In settings page (see below screenshot), Ensure that you enable the checkbox 'Apply show/hide "Add to Quotelist" and "Add to Cart" buttons setting set at individual/category level' to take effect.</strong>
+			<hr/>
+		</li>
+		<li><p>Position</p>
+			<p>You can choose position of "Add To Quote list" Button/link to be placed in Single Product Page. Plugin has 3 different places where you can choose the suitable option.</p>
+			<ul>
+				<li>After Add to Cart</li>
+				<li>After Thumbnail</li>
+				<li>After Product Summary</li>
+			</ul>
+			<p>You can choose <strong>"Use Shortcode"</strong>, to say that you are willing to use shortcode([dvin-wcql-shopbutton product_id="17"]),  Using this feature you can place the button wherever you want on any page or post.</p>
+<p>You can choose <strong>"Replace Add to Cart"</strong>, to replace "Add to Cart" button with "Add to Quote" button in product list and product details page.</p>
+		</li>
+		<li><p>Change Look &amp; Feel of "Add To Quote List" Button/link</p>
+			<ul>
+				<li><p>You can choose to have Button/Link in same as "Add to Cart" Button shows in by the theme. Otherwise it would be default hyperlink. You can choose the Font and Background of the Button/link, otherwise can be default to theme colors.</p></li>
+				<li><p>You can override the CSS rules of "Add To Quote List" Button to align the button/link as per the theme.</p></li>
+			</ul>
+		</li>
+		<li><p>You can attach the Gravity Form/Formidable PRO/Contact Form 7 to the "Request a Quote" Plugin.</p></li>
+		<li><p><strong>Important things are highlighted below in secreenshot</strong></p></li>
+		<p><img src="assets/screenshot8.png" alt=""></p>
+		</div>
+		<div id="3">
+			<h2 class="name"><i>03<span>Widget</span></i></h2>
+			<p>
+				You can create widget for this quotelist by choosing the "Text Widget" in the Widgets. Then add the following code in that:
+				<pre>
+					&lt;div id="quotelist-widget"&gt;&lt;/div&gt;
+				</pre>
+			</p>
+		</div>
+		<div id="4">
+			<h2 class="name"><i>04<span>Email Settings</span></i></h2>
+			<p>
+<span style="color:red">Note:Applicable only if not using Gravity Forms or any third party pluign for customization of form and Email configuration.</span>
+</p>
+			<p>You customize the email message and look & feel(provided fields to input the styles for the table of the products) of it what should be included in the email intended to send to administartor to request for the quote.</p>
+			<p><img src="assets/screenshot2.png" alt=""></p>
+<p><strong>You can also send the email copy to customer/requestor by selecting the appropriate checkbox in the Email settings page.</strong></p>
+		</div>
+		<div id="5">
+			<h2 class="name"><i>05<span>FrontEnd Page Customization</span></i></h2>
+			<div>
+				<p>Request For a Quote page by default contains the shortcodes to display the respective products and form to post to Administrator. Content in the page is customizable. See below sample:</p>
+				<p>
+				<pre>
+					[dvin-wcql-listing]
+					Submit the below form to request for the Quote:
+					[dvin-wcql-form]
+				</pre>
+				See the below screenshot of the Quote List screen(based on above code):
+				<img src="assets/screenshot7.png" alt="">
+				</p>
+<p><strong>You can hide Price column in the Quote List Page and Email message by selecting checkbox of "Remove/Hide Price column from Request For Quote Page"</strong></p>
+<h4><u><strong>There are two methods of modifying the default form</strong></u></h4>
+<h5><stron><u>Method1:Overriding the templates</u></strong></h5>
+<p><strong>You can override the following under dvin-wcql/templates folder in active theme:
+	<ul>
+	<li>	For form - form.php</li>
+	<li>For quotelist table - copy the quotelist_top.php, quotelist.php and quotelist_bottom.php. But you override/modify only quotelist.php and quotelist_bottom.php files.</li>
+	<li>For Email quotelist table - copy the email_quotelist_template_top.php, email_quotelist_template.php and email_quotelist_template_bottom.php. But you override/modify only email_quotelist_template.php and email_quotelist_template_bottom.php files.<br/>
+		***You can do most of the tasks through filters rather than overriding the files.Go to <a href="https://limecuda.ticksy.com/article/4868/">List of Fileters Page</a></li>
+</ul>
+	</strong><br/>For example: create folder "dvin-wcql/templates" in your theme directory, now create form.php and make necessary modifications like adding or deleting the fields.<br/>
+now create quotelist.php to customize the listing page.<br/>
+ADVANTAGE OF THIS METHOD OF CUSTOMIZATION IS THAT YOU <strong>DO NOT LOOSE THE CHANGES</strong> YOU MADE TO FORM OR QUOTE LISTING PAGE WHEN YOU UPDATE THE PLUGIN.</strong>
+</p>
+			</div>
+<div>
+ Following are the steps need to follow to customize the form and so necessary server validation
+<ul>
+ <li>Step1: create 'dvin-wcql/templates/' folder in current theme</li>
+<li>Step2: create 'form.php' file and make your own form from scratch, better is copy the existing one in plugins/dvin-wcql/templates/ folder.</li>
+<li>Step3: create 'form-validation.php' file in 'dvin-wcql' folder in current theme and do neccesary server validation directly. Alternatively use 'dvin_wcql_custom_fields_validation' filter.</li>
+<li>Step4: In Email settings page, you can include the new fields to populate in email. For example: 'wcql_country' is html element ID of the new field you have added. [%wcql_country%] must be added into the email to get it populated when sending the email.</li>
+<li>Step5: create 'custom-field-arr.php' file  in 'dvin-wcql' folder in current theme.You need to add '[%wcql_country%]' to $needle_arr and $_POST['wcql_country'] to $replace_with_arr.  Alternatively you can use 'dvin_wcql_custom_fields_needles' and 'dvin_wcql_custom_fields_replacements' filters respectively.</li>
+<li>Referring to the above example,
+<p> In <u><current_theme>/dvin-wcql/templates/form.php (assuming you have copied the code from plugins directory as mentioned above). Just add the Country field to the existing fields.</u><br>
+<pre>
+<tr>
+ <td>Country:</td><td><input type="text" name="wcql_country" value=""></td>
+</tr>
+</pre>
+In <u><current_theme>/dvin-wcql/form-validation.php</u><br>
+<pre>
+&lt;?php
+if($_POST['wcql_country']=='')
+  $errors[]= __('Please enter country','dvinwcql');
+?>
+</pre>
+In <u><current_theme>/dvin-wcql/custom-field-arr.php</u><br>
+<pre>
+&lt;?php
+$needle_arr[]='[%wcql_country%]';
+$replace_with_arr[] = $_POST['wcql_country'];
+?>
+</pre>
+</p>
+<p>
+<h6>Order Creation with Default Form</h6>
+For order creation(OPTIONAL), you should enable in plugin settings tab(see the screenshot in settings section),Map the fields order fields with Form Field Names of default Form see screenshot below(Form Field Names): <br/>
+<img src='assets/screenshot18.png'/><br/>
+<li>
+	 VIDEO HELP:<br/>
+	 <a href="http://qlistdev.zippydev.com/documentation/assets/Defaultform_order_creation.mp4">Default Form</a>
+</li>
+</p>
+</div>
+<h5><strong><u>Method2:Use Third Party Plugins</u></strong></h5>
+<p>
+Currently we are supporting Gravity Forms,Formidable PRO and Contact Form 7<br/>
+<span style='color:red'>Note:Form and Email settings has to be handled from Third Party Pluign itself.</span><br/>
+<p><strong>Below steps to be followed for Gravity forms to add form to the Request For Quote Page:</strong><br/>
+<ul>
+<li>
+   1) Select the Form (in the settings page), you want to include in the Request Quote Page. Please see the screenshot provide in that section.
+</li>
+	<li>
+	2)Please remove [dvin-wcql-listing] shortcode in "Request For Quote" Page.
+	<p>
+		As mentioned earlier, we have [dvin-wcql-listing] is part of the default "Request For Quote" Page content.Please remove it as it is going to get/configured in Gravity Forms.It should be as follows(sample):
+		<pre>
+					Submit the below form to request for the Quote: -- sample text
+					[dvin-wcql-form]
+		</pre>
+	</p>
+	</li>
+	<li>
+	3)Must add [dvin-wcql-listing] shortcode as one of the HTML elements in Gravity Form where you want to show the listing. see the screenshot below:<br/>
+		<img src='assets/screenshot3.png'/>
+
+	</li>
+		<li>
+	4)For order creation(OPTIONAL), you should enable in plugin settings tab(see the screenshot in settings section),Map the fields order fields with Field IDs of Gravity Form see screenshot below(ID): <br/>
+		<img src='assets/screenshot15.png'/>
+
+	</li>
+	<li>
+	5)Must add hidden field name of "quotelisttable" with <strong>default value</strong> of  "[quotelisttable]" shortcode as one of the HTML elements in Gravity Form. And also hidden field name of "orderinfo" (IF ORDER SETTING IS ENABLED as per above step) with <strong>default value</strong> of  "[orderinfo]" shortcode as one of the HTML element of Gravity Form.
+
+	</li>
+	<img src='assets/screenshot4.png'/>
+		<li>
+	 VIDEO HELP:<br/>
+	 <a href="http://qlistdev.zippydev.com/documentation/assets/gform.mp4">GForm</a>
+	</li>
+
+</ul>
+</p>
+<p><strong>Below steps to be followed for Formidable PRO to add form to the Request For Quote Page:</strong><br/>
+<ul>
+<li>
+   1) Select the Form (in the settings page), you want to include in the Request Quote Page. Please see the screenshot provide in that section.
+</li>
+	<li>
+	2)Must add [dvin-wcql-listing] shortcode as one of the HTML elements in Formidable PRO where you want to show the listing. see the screenshot below:<br/>
+		<img src='assets/screenshot12.png'/>
+
+	</li>
+		<li>
+	3)For order creation(OPTIONAL), you should enable in plugin settings tab(see the screenshot in settings section),Map the fields order fields with Field IDs of Gravity Form see screenshot below(ID): <br/>
+		<img src='assets/screenshot16.png'/>
+
+	</li>
+
+	<li>
+	4)Must add hidden field name of "quotelisttable" with <strong>default value</strong> of  "[quotelisttable]" shortcode as one of the HTML elements in Gravity Form. And also hidden field name of "orderinfo"(IF ORDER CREATION FEATURE ENABLED) with <strong>default value</strong> of  "[orderinfo]" shortcode as one of the HTML element of Gravity Form.
+
+	</li>
+	<img src='assets/screenshot13.png'/>
+	<li>
+	 VIDEO HELP:<br/>
+	 <a href="http://qlistdev.zippydev.com/documentation/assets/formidable_PRO.mp4">Formidable PRO</a>
+	</li>
+</ul>
+</p>
+<p><strong>Below steps to be followed for Contact Form 7 to add form to the Request For Quote Page:</strong><br/>
+<ul>
+<li>
+   1) Select the Form (in the settings page), you want to include in the Request Quote Page. Please see the screenshot provide in that section.
+</li>
+<li>
+   2) Ensure [dvin-wcql-listing] and [dvin-wcql-form] shortcodes exists  in "Request For Quote" Page.
+</li>
+		<li>
+	3)For order creation(OPTIONAL), you should enable in plugin settings tab(see the screenshot in settings section),Map the fields order fields with Field IDs of Contact Form 7 see screenshot below(ID): <br/>
+		<img src='assets/screenshot17.png'/>
+
+	</li>
+	<li>
+	4)Use [quotelist] shortcode in the Email editor to show QuoteList and Use [orderinfo](IF ORDER CREATION FEATURE IS ENABLED) shortcode in the Email Editor(especially to send to Admin) to show Order Info.
+
+	</li>
+	<img src='assets/screenshot14.png'/>
+	<li>
+	 VIDEO HELP:<br/>
+	 <a href="http://qlistdev.zippydev.com/documentation/assets/Contact_Form_7.mp4">Contact Form 7</a>
+	</li>
+</ul>
+</p>
+<p>
+<span style="color:red">Note:Other Important task is how the entries going to be stored in admin and email configuration NOT covering in this section in an assumption that User already have idea about them  and plenty of documentation available on the net.</span>
+</p>
+<p>
+<a href="http://limecuda.ticksy.com/faqs/">Click here for knowledge base</a>
+</p>
+		</div>
+		<div id="6">
+			<h2 class="name"><i>06<span>Credits</span></i></h2>
+			<ul>
+			<li>http://jquery.com/ </li>
+		</div>
+<div class="divider"></div>
+<p><i>Thank you for purchasing this item. We'll be glad to help you if you have any questions relating to this item. If you have a more general questions relating to the item of if your question is beyond the scope
+of this file you might consider visiting my profile page <a href="http://themeforest.net/user/DVin/profile">Contact Us</a> form where from you can email me . Email me your Item Purchase Code or License Certificate.</i></p>
+<div class="divider"></div>
+</div>
+</div>
+</div>
+</li></ul></div></div></div></div></body></html>

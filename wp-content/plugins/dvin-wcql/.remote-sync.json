@@ -1,0 +1,16 @@
+{
+  "transport": "ftp",
+  "uploadOnSave": false,
+  "useAtomicWrites": true,
+  "deleteLocal": false,
+  "hostname": "zippydev.com",
+  "port": "21",
+  "target": "/public_html/qlistdemo/wp-content/plugins/dvin-wcql/",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "zipppol8",
+  "password": "8hAb{z30h[nk",
+  "watch": []
+}

@@ -1,0 +1,221 @@
+0000.000 (0) Opened log file at time: Tue, 03 Mar 2020 12:02:37 +0000 on https://aseonline.com.au
+0000.008 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.22 WP: 5.3.2 PHP: 7.0.33 (litespeed, Linux s131.syd1.hostingplatform.net.au 3.10.0-962.3.2.lve1.5.26.3.el7.x86_64 #1 SMP Wed Aug 14 08:29:59 EDT 2019 x86_64) MySQL: 10.2.31-MariaDB WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 84.5M | 86M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.317 (0) Free space on disk containing Updraft's temporary directory: 63318.5 MB
+0000.386 (0) Tasks: Backup files: 0 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.391 (0) Semaphore (d, wpma_options) being initialised
+0000.449 (0) Requesting semaphore lock (d) (apparently not via scheduler)
+0000.458 (0) Set semaphore last lock (d) time to 2020-03-03 12:02:37
+0000.503 (0) Semaphore lock (d) complete
+0000.557 (0) Backup run: resumption=0, nonce=e586b972fa3b, file_nonce=e586b972fa3b begun at=1583236957 (0s ago), job type=backup
+0000.580 (0) Scheduling a resumption (1) after 300 seconds (1583237257) in case this run gets aborted
+0000.656 (0) This backup run is not intended for files - skipping
+0000.665 (0) Beginning creation of database dump (WordPress DB)
+0000.679 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0000.744 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wpma_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nC (truncated - 1236 bytes total)
+0000.760 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.926 (0) Table wpma_options: Total expected rows (approximate): 725
+0001.289 (0) Table wpma_options: Total rows added: 733 in 0.31 seconds
+0001.317 (0) Table wpma_options: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_options.table.gz - 344.2 KB)
+0001.358 (0) Table wpma_users: Total expected rows (approximate): 2
+0001.374 (0) Table wpma_users: Total rows added: 3 in 0.00 seconds
+0001.377 (0) Table wpma_users: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_users.table.gz - 0.7 KB)
+0001.435 (0) Table wpma_usermeta: Total expected rows (approximate): 170
+0001.487 (0) Table wpma_usermeta: Total rows added: 179 in 0.01 seconds
+0001.525 (0) Table wpma_usermeta: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_usermeta.table.gz - 5 KB)
+0001.565 (0) Table wpma_commentmeta: Total expected rows (approximate): 0
+0001.570 (0) Table wpma_commentmeta: Total rows added: 0 in 0.00 seconds
+0001.577 (0) Table wpma_commentmeta: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_commentmeta.table.gz - 0.4 KB)
+0001.655 (0) Table wpma_comments: Total expected rows (approximate): 309
+0001.672 (0) Table wpma_comments: Total rows added: 336 in 0.01 seconds
+0001.725 (0) Table wpma_comments: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_comments.table.gz - 2.9 KB)
+0001.763 (0) Table wpma_links: Total expected rows (approximate): 0
+0001.768 (0) Table wpma_links: Total rows added: 0 in 0.00 seconds
+0001.771 (0) Table wpma_links: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_links.table.gz - 0.4 KB)
+0001.784 (0) Table wpma_postmeta: Total expected rows (approximate): 8317
+0002.393 (0) Table wpma_postmeta: binary mysqldump finished (writes: 35) in 0.54 seconds
+0002.441 (0) Table wpma_postmeta: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_postmeta.table.gz - 457.3 KB)
+0002.610 (0) Table wpma_posts: Total expected rows (approximate): 2219
+0003.102 (0) Table wpma_posts: Total rows added: 2276 in 0.48 seconds
+0003.107 (0) Table wpma_posts: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_posts.table.gz - 307.9 KB)
+0003.156 (0) Table wpma_term_relationships: Total expected rows (approximate): 1766
+0003.188 (0) Table wpma_term_relationships: Total rows added: 1859 in 0.02 seconds
+0003.207 (0) Table wpma_term_relationships: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_term_relationships.table.gz - 4.8 KB)
+0003.224 (0) Table wpma_term_taxonomy: Total expected rows (approximate): 43
+0003.230 (0) Table wpma_term_taxonomy: Total rows added: 42 in 0.00 seconds
+0003.235 (0) Table wpma_term_taxonomy: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_term_taxonomy.table.gz - 1.4 KB)
+0003.251 (0) Table wpma_termmeta: Total expected rows (approximate): 39
+0003.258 (0) Table wpma_termmeta: Total rows added: 39 in 0.00 seconds
+0003.262 (0) Table wpma_termmeta: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_termmeta.table.gz - 0.7 KB)
+0003.272 (0) Table wpma_terms: Total expected rows (approximate): 39
+0003.277 (0) Table wpma_terms: Total rows added: 42 in 0.00 seconds
+0003.280 (0) Table wpma_terms: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_terms.table.gz - 1 KB)
+0003.319 (0) Table wpma_wc_product_meta_lookup: Total expected rows (approximate): 60
+0003.335 (0) Table wpma_wc_product_meta_lookup: Total rows added: 60 in 0.01 seconds
+0003.340 (0) Table wpma_wc_product_meta_lookup: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_wc_product_meta_lookup.table.gz - 0.7 KB)
+0003.373 (0) Table wpma_wc_tax_rate_classes: Total expected rows (approximate): 2
+0003.390 (0) Table wpma_wc_tax_rate_classes: Total rows added: 2 in 0.01 seconds
+0003.407 (0) Table wpma_wc_tax_rate_classes: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_wc_tax_rate_classes.table.gz - 0.4 KB)
+0003.446 (0) Table wpma_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0003.465 (0) Table wpma_woocommerce_order_itemmeta: Total rows added: 0 in 0.01 seconds
+0003.474 (0) Table wpma_woocommerce_order_itemmeta: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_order_itemmeta.table.gz - 0.4 KB)
+0003.558 (0) Table wpma_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0003.590 (0) Table wpma_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.01 seconds
+0003.592 (0) Table wpma_woocommerce_payment_tokenmeta: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0003.632 (0) Table wpma_yoast_seo_links: Total expected rows (approximate): 9
+0003.648 (0) Table wpma_yoast_seo_links: Total rows added: 9 in 0.01 seconds
+0003.680 (0) Table wpma_yoast_seo_links: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_yoast_seo_links.table.gz - 0.5 KB)
+0003.710 (0) Table wpma_yoast_seo_meta: Total expected rows (approximate): 11
+0003.715 (0) Table wpma_yoast_seo_meta: Total rows added: 11 in 0.00 seconds
+0003.741 (0) Table wpma_yoast_seo_meta: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_yoast_seo_meta.table.gz - 0.4 KB)
+0003.752 (0) Table wpma_jmk_alt_tags: Total expected rows (approximate): 1
+0003.757 (0) Table wpma_jmk_alt_tags: Total rows added: 1 in 0.00 seconds
+0003.763 (0) Table wpma_jmk_alt_tags: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_jmk_alt_tags.table.gz - 0.4 KB)
+0003.809 (0) Table wpma_loginizer_logs: Total expected rows (approximate): 0
+0003.836 (0) Table wpma_loginizer_logs: Total rows added: 0 in 0.00 seconds
+0003.867 (0) Table wpma_loginizer_logs: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_loginizer_logs.table.gz - 0.3 KB)
+0003.921 (0) Table wpma_pmxi_files: Total expected rows (approximate): 0
+0003.925 (0) Table wpma_pmxi_files: Total rows added: 0 in 0.00 seconds
+0003.927 (0) Table wpma_pmxi_files: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_pmxi_files.table.gz - 0.3 KB)
+0003.990 (0) Table wpma_pmxi_history: Total expected rows (approximate): 0
+0003.994 (0) Table wpma_pmxi_history: Total rows added: 0 in 0.00 seconds
+0003.996 (0) Table wpma_pmxi_history: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_pmxi_history.table.gz - 0.4 KB)
+0004.050 (0) Table wpma_pmxi_images: Total expected rows (approximate): 0
+0004.055 (0) Table wpma_pmxi_images: Total rows added: 0 in 0.00 seconds
+0004.057 (0) Table wpma_pmxi_images: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_pmxi_images.table.gz - 0.3 KB)
+0004.080 (0) Table wpma_pmxi_imports: Total expected rows (approximate): 0
+0004.095 (0) Table wpma_pmxi_imports: Total rows added: 0 in 0.01 seconds
+0004.123 (0) Table wpma_pmxi_imports: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_pmxi_imports.table.gz - 0.6 KB)
+0004.166 (0) Table wpma_pmxi_posts: Total expected rows (approximate): 0
+0004.187 (0) Table wpma_pmxi_posts: Total rows added: 0 in 0.00 seconds
+0004.194 (0) Table wpma_pmxi_posts: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_pmxi_posts.table.gz - 0.4 KB)
+0004.207 (0) Table wpma_pmxi_templates: Total expected rows (approximate): 0
+0004.220 (0) Table wpma_pmxi_templates: Total rows added: 0 in 0.01 seconds
+0004.230 (0) Table wpma_pmxi_templates: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_pmxi_templates.table.gz - 0.4 KB)
+0004.248 (0) Table wpma_revslider_css: Total expected rows (approximate): 122
+0004.260 (0) Table wpma_revslider_css: Total rows added: 122 in 0.01 seconds
+0004.263 (0) Table wpma_revslider_css: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_revslider_css.table.gz - 5.3 KB)
+0004.271 (0) Table wpma_revslider_layer_animations: Total expected rows (approximate): 0
+0004.279 (0) Table wpma_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0004.283 (0) Table wpma_revslider_layer_animations: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_revslider_layer_animations.table.gz - 0.3 KB)
+0004.292 (0) Table wpma_revslider_navigations: Total expected rows (approximate): 0
+0004.297 (0) Table wpma_revslider_navigations: Total rows added: 0 in 0.00 seconds
+0004.300 (0) Table wpma_revslider_navigations: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_revslider_navigations.table.gz - 0.3 KB)
+0004.312 (0) Table wpma_revslider_sliders: Total expected rows (approximate): 2
+0004.321 (0) Table wpma_revslider_sliders: Total rows added: 2 in 0.00 seconds
+0004.329 (0) Table wpma_revslider_sliders: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_revslider_sliders.table.gz - 3 KB)
+0004.345 (0) Table wpma_revslider_slides: Total expected rows (approximate): 5
+0004.361 (0) Table wpma_revslider_slides: Total rows added: 5 in 0.01 seconds
+0004.366 (0) Table wpma_revslider_slides: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_revslider_slides.table.gz - 9 KB)
+0004.390 (0) Table wpma_revslider_static_slides: Total expected rows (approximate): 0
+0004.398 (0) Table wpma_revslider_static_slides: Total rows added: 0 in 0.00 seconds
+0004.404 (0) Table wpma_revslider_static_slides: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_revslider_static_slides.table.gz - 0.3 KB)
+0004.428 (0) Table wpma_wc_download_log: Total expected rows (approximate): 0
+0004.433 (0) Table wpma_wc_download_log: Total rows added: 0 in 0.00 seconds
+0004.442 (0) Table wpma_wc_download_log: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_wc_download_log.table.gz - 0.4 KB)
+0004.451 (0) Table wpma_wc_webhooks: Total expected rows (approximate): 0
+0004.455 (0) Table wpma_wc_webhooks: Total rows added: 0 in 0.00 seconds
+0004.468 (0) Table wpma_wc_webhooks: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_wc_webhooks.table.gz - 0.5 KB)
+0004.479 (0) Table wpma_woocommerce_api_keys: Total expected rows (approximate): 0
+0004.489 (0) Table wpma_woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0004.518 (0) Table wpma_woocommerce_api_keys: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_api_keys.table.gz - 0.4 KB)
+0004.637 (0) Table wpma_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0004.643 (0) Table wpma_woocommerce_attribute_taxonomies: Total rows added: 0 in 0.00 seconds
+0004.647 (0) Table wpma_woocommerce_attribute_taxonomies: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0004.660 (0) Table wpma_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0004.667 (0) Table wpma_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0004.671 (0) Table wpma_woocommerce_downloadable_product_permissions: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0004.697 (0) Table wpma_woocommerce_log: Total expected rows (approximate): 0
+0004.720 (0) Table wpma_woocommerce_log: Total rows added: 0 in 0.00 seconds
+0004.744 (0) Table wpma_woocommerce_log: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_log.table.gz - 0.4 KB)
+0004.846 (0) Table wpma_woocommerce_order_items: Total expected rows (approximate): 0
+0004.887 (0) Table wpma_woocommerce_order_items: Total rows added: 0 in 0.00 seconds
+0004.901 (0) Table wpma_woocommerce_order_items: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_order_items.table.gz - 0.4 KB)
+0004.919 (0) Table wpma_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0004.924 (0) Table wpma_woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0004.926 (0) Table wpma_woocommerce_payment_tokens: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0004.950 (0) Table wpma_woocommerce_sessions: Total expected rows (approximate): 2
+0004.956 (0) Table wpma_woocommerce_sessions: Total rows added: 2 in 0.00 seconds
+0004.959 (0) Table wpma_woocommerce_sessions: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_sessions.table.gz - 0.9 KB)
+0004.997 (0) Table wpma_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0005.037 (0) Table wpma_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+0005.040 (0) Table wpma_woocommerce_shipping_zone_locations: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0005.081 (0) Table wpma_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0005.085 (0) Table wpma_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0005.115 (0) Table wpma_woocommerce_shipping_zone_methods: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0005.126 (0) Table wpma_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0005.130 (0) Table wpma_woocommerce_shipping_zones: Total rows added: 0 in 0.00 seconds
+0005.134 (0) Table wpma_woocommerce_shipping_zones: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0005.148 (0) Table wpma_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0005.155 (0) Table wpma_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0005.158 (0) Table wpma_woocommerce_tax_rate_locations: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0005.176 (0) Table wpma_woocommerce_tax_rates: Total expected rows (approximate): 0
+0005.180 (0) Table wpma_woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0005.183 (0) Table wpma_woocommerce_tax_rates: finishing file (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_tax_rates.table.gz - 0.4 KB)
+0005.237 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_options.table.gz (1/46): adding to final database dump
+0005.368 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_users.table.gz (2/46): adding to final database dump
+0005.371 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_usermeta.table.gz (3/46): adding to final database dump
+0005.374 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_commentmeta.table.gz (4/46): adding to final database dump
+0005.376 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_comments.table.gz (5/46): adding to final database dump
+0005.380 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_links.table.gz (6/46): adding to final database dump
+0005.382 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_postmeta.table.gz (7/46): adding to final database dump
+0005.505 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_posts.table.gz (8/46): adding to final database dump
+0005.599 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_term_relationships.table.gz (9/46): adding to final database dump
+0005.604 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_term_taxonomy.table.gz (10/46): adding to final database dump
+0005.607 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_termmeta.table.gz (11/46): adding to final database dump
+0005.610 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_terms.table.gz (12/46): adding to final database dump
+0005.612 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_wc_product_meta_lookup.table.gz (13/46): adding to final database dump
+0005.615 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_wc_tax_rate_classes.table.gz (14/46): adding to final database dump
+0005.617 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_order_itemmeta.table.gz (15/46): adding to final database dump
+0005.618 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_payment_tokenmeta.table.gz (16/46): adding to final database dump
+0005.620 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_yoast_seo_links.table.gz (17/46): adding to final database dump
+0005.622 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_yoast_seo_meta.table.gz (18/46): adding to final database dump
+0005.623 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_jmk_alt_tags.table.gz (19/46): adding to final database dump
+0005.625 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_loginizer_logs.table.gz (20/46): adding to final database dump
+0005.630 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_pmxi_files.table.gz (21/46): adding to final database dump
+0005.632 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_pmxi_history.table.gz (22/46): adding to final database dump
+0005.635 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_pmxi_images.table.gz (23/46): adding to final database dump
+0005.637 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_pmxi_imports.table.gz (24/46): adding to final database dump
+0005.639 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_pmxi_posts.table.gz (25/46): adding to final database dump
+0005.641 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_pmxi_templates.table.gz (26/46): adding to final database dump
+0005.643 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_revslider_css.table.gz (27/46): adding to final database dump
+0005.648 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_revslider_layer_animations.table.gz (28/46): adding to final database dump
+0005.650 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_revslider_navigations.table.gz (29/46): adding to final database dump
+0005.652 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_revslider_sliders.table.gz (30/46): adding to final database dump
+0005.655 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_revslider_slides.table.gz (31/46): adding to final database dump
+0005.662 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_revslider_static_slides.table.gz (32/46): adding to final database dump
+0005.664 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_wc_download_log.table.gz (33/46): adding to final database dump
+0005.682 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_wc_webhooks.table.gz (34/46): adding to final database dump
+0005.684 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_api_keys.table.gz (35/46): adding to final database dump
+0005.692 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_attribute_taxonomies.table.gz (36/46): adding to final database dump
+0005.701 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_downloadable_product_permissions.table.gz (37/46): adding to final database dump
+0005.706 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_log.table.gz (38/46): adding to final database dump
+0005.709 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_order_items.table.gz (39/46): adding to final database dump
+0005.712 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_payment_tokens.table.gz (40/46): adding to final database dump
+0005.714 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_sessions.table.gz (41/46): adding to final database dump
+0005.716 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_shipping_zone_locations.table.gz (42/46): adding to final database dump
+0005.725 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_shipping_zone_methods.table.gz (43/46): adding to final database dump
+0005.727 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_shipping_zones.table.gz (44/46): adding to final database dump
+0005.730 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_tax_rate_locations.table.gz (45/46): adding to final database dump
+0005.732 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db-table-wpma_woocommerce_tax_rates.table.gz (46/46): adding to final database dump
+0005.737 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db.gz: finished writing out complete database file (1136 KB)
+0005.817 (0) Total database tables backed up: 46 (backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db.gz, size: 1174327, sha1: b8fd4fbedccd2558a25081878502b50d921b4818, sha256: 14198997c9e4e0592380c531417dfea32a2f43ae3e5e18f6911f5d163bed98f8)
+0005.841 (0) backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db.gz: db: This file has not yet been successfully uploaded: will queue
+0005.842 (0) Saving backup history. Total backup size: 1.1 MB
+0005.850 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0005.856 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0005.858 (0) No remote despatch: user chose no remote backup service
+0005.860 (0) Recording as successfully uploaded: backup_2020-03-03-1202_ASE_Online_e586b972fa3b-db.gz
+0005.876 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0005.880 (0) Number of backup sets in history: 1; groups (db): 1
+0005.882 (0) Examining (for databases) backup set with group_id=0, nonce=e586b972fa3b, datestamp=1583236957 (Mar 03 2020 12:02:37)
+0005.900 (0) This backup set is the backup set just made, so will not be deleted.
+0005.900 (0) Number of backup sets in history: 1; groups (files): 1
+0005.922 (0) Examining (for files) backup set with nonce=e586b972fa3b, datestamp=1583236957 (Mar 03 2020 12:02:37)
+0005.922 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0005.939 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0005.970 (0) Resume backup (e586b972fa3b, 0): finish run
+0006.001 (0) Decremented the semaphore (d) by 1
+0006.007 (0) Semaphore (d) unlocked
+0006.010 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0006.017 (0) No email will/can be sent - the user has not configured an email address.
+0006.019 (0) The backup apparently succeeded and is now complete

@@ -1,0 +1,2 @@
+2020-07-30T01:22:29+00:00 CRITICAL Out of memory (allocated 73400320) (tried to allocate 8192 bytes) in C:\wamp64\www\ase\wp-content\plugins\jetpack\modules\woocommerce-analytics\classes\wp-woocommerce-analytics-universal.php on line 395
+

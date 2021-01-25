@@ -1,0 +1,79 @@
+@media only screen and (max-width: 1024px) {
+.fusion-mobile-menu-icons a {
+line-height: 80px;
+}
+}
+@media only screen and (max-width: 767px) {
+.fusion-mobile-menu-icons a {
+line-height: 0;
+}
+} .fusion-page-title-bar h1 {
+display: inline-block;
+height: 104px;
+line-height: 104px!important;
+margin: 0 70px;
+background: #3478ad;
+position: relative;
+}
+.fusion-page-title-bar h1:before,
+.fusion-page-title-bar h1:after {
+content: '';
+display: block;
+position: absolute;
+top: 0;
+height: 104px;
+width: 70px;
+transform: skewX(-34deg);
+background: #3478ad;
+z-index: -1;
+}
+.fusion-page-title-bar h1:before {
+left: -35px;
+}
+.fusion-page-title-bar h1:after {
+right: -35px;
+}
+@media only screen and (max-width: 1024px) {
+.fusion-body .fusion-page-title-bar {
+padding-top: 0!important;
+padding-bottom: 0!important;
+}
+}
+@media only screen and (max-width: 640px) {
+.fusion-body .fusion-page-title-bar h1 {
+margin: 0 70px!important;
+}
+} .aes-full-width-background {
+background-size: 50%!important;
+}
+@media only screen and (max-width: 1024px) {
+.aes-full-width-background {
+background-image: none!important;
+}
+} .woocommerce-pagination{
+display: none;
+} @media screen and (max-width: 380px){
+.mobile-hide{
+display: none;
+}
+} @media screen and (max-width: 1025px){
+.fusion-page-title-bar h1{
+font-size: 20px !important;
+}
+.fusion-body .fusion-page-title-bar h1{
+margin: -20px 70px!important;
+}
+} .eqa-item{
+padding-bottom: 10px !important;
+} @media screen and (max-width: 900px){
+.aes-home-quarter .fusion-imageframe a:before{
+background: rgba(0,0,0,0) !important;
+display: none;
+}
+}
+@media screen and (orientation: landscape) {
+.aes-home-quarter .fusion-imageframe a:before{
+background: rgba(0,0,0,0) !important;
+display: none;
+}
+}

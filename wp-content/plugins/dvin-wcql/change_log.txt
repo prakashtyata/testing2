@@ -1,0 +1,565 @@
+**Request For a Quote Changelog
+2018.07.14 - version 2.61
+
+* compatibility with WooComerce 3.6.5
+
+2018.10.23 - version 2.60
+
+* Warnings on activation of plugin
+
+2018.09.09 - version 2.59
+
+* bug fixes - Notice on deprecated methods
+
+2018.07.08 - version 2.58
+
+* Fixed multiligual contact form 7 issue
+
+2018.05.22 - version 2.57
+
+* Default Quote form made responsive
+
+2018.05.18 - version 2.56
+
+* bug fixes - small bug fixes
+
+* Added new filters - dvin_addtoquote_removequote_text,dvin_addtoquote_removequote_exists_text
+
+2018.03.10 - version 2.55
+
+* bug fixes - Notice on deprecated methods
+
+2017.05.22 - version 2.54
+
+* bug fixes
+
+2017.04.27 - version 2.53
+
+* bug fixes
+
+2017.04.27 - version 2.52
+
+* Fixed issue raised on previous version (WP_POST::get_id())
+
+2017.04.21 - version 2.51
+
+* Compatible with Woocommerce 3.0
+
+2017.03.17 - version 2.50
+
+* Fixed - Admin URL for Multi Language
+
+2017.01.26 - version 2.49
+
+* Fixed - layout issue
+
+2016.10.25 - version 2.48
+
+* Fixed - Responsive design for the Quotelist Table
+
+* Fixed - Responsive design for the button text
+
+2016.10.25 - version 2.47
+
+* small bugs fixed
+
+2016.10.04 - version 2.46
+
+* Grand total issue fixed
+
+* Corrected the responsive version of the table
+
+* Fixed bug in Variable product information in order
+
+2016.09.13 - version 2.45
+
+* small bug fixes
+
+2016.09.10 - version 2.44
+
+* compatible with WC 2.6.4 (Show the Add to Quote button disabled by default for Variable Products)
+
+2016.09.01 - version 2.43
+
+* small bug fixes
+
+2016.08.20 - version 2.42
+
+* language fix
+
+2016.08.20 - version 2.41
+
+* small bug fixes
+
+2016.08.03 - version 2.40
+
+* small bug fixes
+
+2016.08.03 - version 2.39
+
+* Translation bug fixes
+
+2016.06.29 - version 2.38
+
+* few bug fixes
+
+2016.06.29 - version 2.37
+
+* few bug fixes
+
+2016.06.29 - version 2.36
+
+* Translation issue fixed for the string "Request a Quote"
+
+2016.06.28 - version 2.35
+
+* Revamped the code to make it compatible with Addons
+
+2016.05.21 - version 2.34
+
+* Fixed the count issue
+
+2016.05.18 - version 2.33
+
+* cleaned up code
+
+* added random number to Quote List URL to counter browser cache
+
+2016.04.27 - version 2.32
+
+* Fixed bug in trnslation string
+
+* Fixed bug of updated list when SKU column is displayed
+
+* Fixed warnings when using in conjunction with other plugins
+
+2016.04.24 - version 2.31
+
+* Fixed bug in contactform7
+
+2016.04.24 - version 2.30
+
+* Fixed bug in contactform7
+
+2016.04.13 - version 2.29
+
+* Added filters to dynamically assign the forms
+
+* Fixed the issue of displaying prices inclusion of taxes irrespective of setting in Woocommerce
+
+* Added support to External/Affiliate product
+
+2016.04.11 - version 2.28
+
+* Removed debug info
+
+2016.03.24 - version 2.27
+
+* Handled apostrophe truncate issue
+
+* truncate of the name in the email is fixed
+
+* List empty message fixed when used third party plugin
+
+* Cleanup of the code
+
+2015.11.15 - version 2.26
+
+* Gravity Forms escaping html fixed
+
+2015.11.15 - version 2.25
+
+* Removed debug info
+
+2015.11.15 - version 2.24
+
+* Fixed the issue of including html tags for the button
+
+* Fixed the mappinh fields issue
+
+2015.11.10 - version 2.23
+
+* Added filter(dvin_wcql_quotelist_url) for quote URL
+
+* Added filter(dvin_wcql_always_display_form) for enable/disable in case of no products
+
+2015.11.03 - version 2.22
+
+* Small bugs fixed
+
+2015.10.29 - version 2.21
+
+* Fixed button shorcode issue
+
+* Prepopulate name and email  in the form if logged in
+
+2015.10.21 - version 2.20
+
+* small bug fixes
+
+* added filters for list empty page
+
+2015.09.29 - version 2.19
+
+* Removed the note added in last version
+
+* Fixed small bugs
+
+2015.09.28 - version 2.18
+
+* Added note to apply Map setting Again not to break order creation
+
+2015.09.28 - version 2.17
+
+* Fixed bugs related to creating/deleting page while activating/deactivating the plugin
+
+* Fixed notices
+
+* Default settings are assigned right values
+
+* Button shortcode bug fixed
+
+2015.08.22 - version 2.16
+
+* Fixed bugs introduced in last version
+
+2015.08.15 - version 2.15
+
+*Fixed minor bugs
+
+*Support to WooComerce Product Add-ons Extension
+
+*Added one filter to get more control on whether to display button or not
+
+2015.07.25 - version 2.14
+
+*Fixed - PHP warnings
+
+*Added option to override mini-cart
+
+*Updatelist hidden if quantity is hidden
+
+2015.07.11 - version 2.13
+
+*Fixed - If set for hide prices for not loggedin user, even if you add,it should not show on Request a Quote page
+
+*Added option to show SKU in Request For a Quote Page
+
+2015.06.20 - version 2.12
+
+*Fixed Warnings generated because of loading list from sesssion
+
+*Removed dvin-wcql-ajax.php as we have implemented the ajax functionality in other file
+
+*Fixed variable product title not showing on the email
+
+2015.05.31 - version 2.11
+
+*Applied appropriate class for Quantity column in the Quote List/Table
+
+*Fixed Price column visible even after it is disabled to view in the email
+
+2015.05.06 - version 2.10
+
+*Performance Tuning
+
+*removed unecessary JS alerts
+
+*Using woocommerce sessions method instead of PHP sessions solves where PHP sessions are not configured properly on hosts
+
+*Fixed undefined index issue
+
+2015.05.06 - version 2.9
+
+*Add to Quote button not visible in product details page when product is not purchasable
+
+*Spell error "QuoteList" instead of "Quote List"
+
+*Added attributes to shortcode "quotelist"(other than GF) or "quotelisttable"(GF) to include SKU or Price
+
+*Email Validation issue fixed
+
+2015.04.28 - version 2.8
+
+*Fixed popup issue in variation product page
+
+2015.04.21 - version 2.7
+
+*Fixed issue of not adding to list
+
+2015.04.16 - version 2.6
+
+*Fixed issue of the tabs or save button not visible in the admin settings
+
+*Fixed few notices
+
+*Fixed showing as link instead of button in shop page
+
+2015.04.14 - version 2.5
+
+*Fixed Notice issues with respect to mapping fields
+
+*Fixed form send issue
+
+2015.04.09 - version 2.4
+
+*Contact Form 7 Notice issue Fixed
+
+*Not sending form in case of no widget fixed
+
+*T_Class error Fixed
+
+2015.04.07 - version 2.3
+
+*Fixed few issues
+
+2015.04.01 - version 2.2
+
+*Fixed few issues
+
+2015.03.30 - version 2.1
+
+*Fixed few issues
+
+2015.03.27 - version 2.0
+
+*Revamped code to improve performance
+
+*Order would be created and updated with 'On-Hold' status
+
+2015.03.07 - version 1.35
+
+*Renamed the DIV id content - Fixed layout issues
+
+*Added Order creation feature (need Woocommerce v2.2+)
+
+*Contact form Integration Mail(2) issue fixed
+
+2015.01.08 - version 1.34
+
+*Fixed variable products broken issue
+
+*Documentation updated for Contact Form 7
+
+2015.01.07 - version 1.33
+
+*Fixed undefined notices
+
+2015.01.05  - version 1.32
+
+* Fixed Illegal exception issue
+
+2015.01.02 - version 1.31
+
+* Added support to Contact Form 7
+
+* Fixed small bugs
+
+* Added documentation, FAQs Raise Support Ticket, Changes links to the admin screen
+
+2014.11.26 - version 1.30
+
+* Small bugs fixed
+
+2014.11.25 - version 1.29
+
+* Sidebar issue fixed
+
+* Introduced Widget
+
+* Added support for custom Quote List Page URL
+
+2014.10.27 - version 1.28
+
+* Fixed the warning @ max quantity field
+
+2014.10.18 - version 1.27
+
+* Added option to hide price if Add to Quote button enabled
+
+2014.10.08 - version 1.26
+
+* Removed unecessary alerts in the code
+
+2014.10.02 - version 1.25
+
+* Fixed show/hide Add to Quote button when variation selected/deselected
+
+2014.10.02 - version 1.24
+
+* Request a Quote and Add to Cart button visibility options at product and category level
+
+2014.09.23 - version 1.23
+
+* Fixed Postfix email issue, introduced new field
+
+* Redirect after form submission
+
+2014.09.05 - version 1.22
+
+* Added filter for changing acknoledgement text
+
+* Added support to Product Bundle Extension(limited)
+
+2014.08.25 - version 1.21
+
+* Fixed small bugs
+
+* Added fields in Email Settings page to add flexibility to add styles to table for the email
+
+* Look & feel of Quote list page in sync with checkout page
+
+2014.08.12 - version 1.20
+
+* Added button "Update List"
+
+* bug fixed on overall price
+
+* Fixed Translation Issues
+
+* Override Email Table Template
+
+* Override Table Template
+
+* Included Grand Total Items and Total if price is enabled
+
+* Added filters to override the text
+
+* Updated documentation
+
+2014.08.02 - version 1.19
+
+* Fixed bugs introduced in v1.17 and v1.18
+
+2014.08.01 - version 1.18
+
+* Fixed products list not displaying in Email issue
+
+2014.07.25 - version 1.17
+
+* code is missing related to Gravity forms. Fixed now.
+
+* Added support to show prices only for Logged In information
+
+* Admin Panel Translation  issue fixed
+
+* Added support to include SKU in email
+
+* Stock limit issue fixed
+
+2014.07.14 - version 1.16
+
+* Fixed Hide Price issue for Variable products
+
+* Fixed issue Add to Quote button not replacing for Add to Cart for infinite Scroll
+
+* Page deleteion issue fixed when deactivating/uninstalling the plugin
+
+* revamped some parts of the code
+
+2014.06.10 - version 1.15
+
+* Fixed Gravity forms error
+
+* Added support to show/hide Quantity field
+
+2014.06.04 - version 1.14
+
+* Handling Emails in effective way
+
+* Added support to gravity Forms
+
+* Stock limit issue fixed
+
+2014.05.22 - version 1.13
+
+* Hide Price functionality added
+
+* Multiple Email Support
+
+2014.04.17 - version 1.12
+
+* For simple product now plugin works without add-to-cart field
+
+2014.04.11 - version 1.11
+
+* Line Ending issue in add-to-quotelist.php - fixed
+
+2014.04.04 - version 1.10
+
+* Adding product not working when price is not set for the products - Fixed
+
+2014.04.04 - version 1.9
+
+* Remove the product link not working - fixed
+
+* Hiding Add To Cart button fixed
+
+* packaging of the plugin changed, now can be installed directly
+
+2014.03.25 - version 1.8
+
+* Removed the popup as per users request
+
+* Added "Product Added" in product details page and linked to QuoteList Page
+
+2014.03.23  - version 1.7
+
+* Backward compatibility to WC 2.0+
+
+* Added Popup
+
+* Replaced "In Quotelist" in shop page instead of "X Quote"
+
+2014.03.22 - version 1.6
+
+* added necessary filters for the flexibility to add fields and validation to the form.
+
+2014.03.22 - version 1.5
+
+* MOST IMPORTANT! Added Remove functionality in both Shop and Product Details Page
+
+* Feature to override template,javascript and language files in theme folder
+
+* Added checkbox to remove/hide Price column from list and email templates
+
+* Now Quantity field in Quote list have +/-
+
+* Fixed minor bugs
+
+* Updated the documentation
+
+2014.03.15 - version 1.4
+
+* Fixed bugs related to variable product
+
+* Fixed Translation string
+
+* Fixed removing product issue
+
+2014.03.08 - version 1.3
+
+* Email Charset changed from iso-8859-1 to UTF-8
+
+* Added link to the product image in Email
+
+* Fixed checkbox issue
+
+* Added Copy Email to Customer feature
+
+* Fixed headers already sent while saving settings
+
+2014.02.18 - version 1.2
+
+* Small bug fixes related to translation
+
+2014.02.17 - version 1.1
+
+* Feature to add button to Product List Page
+
+* Small bug fixes
+
+2013.12.26 - version 1.7.8
+
+* Initial Release
+

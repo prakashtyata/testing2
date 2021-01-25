@@ -1,0 +1,77 @@
+[22-Feb-2018 19:55:20 Australia/Sydney] PHP Fatal error:  Call to undefined function get_header() in /home/aseonlin/public_html/wp-content/themes/Avada/index.php on line 1
+[15-Jun-2018 16:10:23 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/aseonlin/public_html/wp-content/themes/Avada/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/aseonlin/public_html/wp-content/themes/Avada/index.php on line 1
+[15-Jun-2018 16:10:24 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/aseonlin/public_html/wp-content/themes/Avada/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/aseonlin/public_html/wp-content/themes/Avada/index.php on line 1
+[26-Jun-2018 14:50:01 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/aseonlin/public_html/wp-content/themes/Avada/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/aseonlin/public_html/wp-content/themes/Avada/index.php on line 1
+[26-Jun-2018 14:50:04 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/aseonlin/public_html/wp-content/themes/Avada/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/aseonlin/public_html/wp-content/themes/Avada/index.php on line 1
+[14-Jul-2018 14:14:21 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/aseonlin/public_html/wp-content/themes/Avada/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/aseonlin/public_html/wp-content/themes/Avada/index.php on line 1
+[17-Jul-2018 08:17:30 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/aseonlin/public_html/wp-content/themes/Avada/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/aseonlin/public_html/wp-content/themes/Avada/index.php on line 1
+[17-Jul-2018 08:17:32 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/aseonlin/public_html/wp-content/themes/Avada/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/aseonlin/public_html/wp-content/themes/Avada/index.php on line 1
+[05-Sep-2018 06:53:17 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/aseonlin/public_html/wp-content/themes/Avada/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/aseonlin/public_html/wp-content/themes/Avada/404.php on line 1
+[05-Sep-2018 19:54:25 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/aseonlin/public_html/wp-content/themes/Avada/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/aseonlin/public_html/wp-content/themes/Avada/404.php on line 1
+[03-Oct-2018 17:35:44 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/aseonlin/public_html/wp-content/themes/Avada/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/aseonlin/public_html/wp-content/themes/Avada/index.php on line 1
+[03-Oct-2018 17:35:46 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/aseonlin/public_html/wp-content/themes/Avada/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/aseonlin/public_html/wp-content/themes/Avada/index.php on line 1
+[30-Oct-2018 07:00:09 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/aseonlin/public_html/wp-content/themes/Avada/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/aseonlin/public_html/wp-content/themes/Avada/index.php on line 1
+[30-Oct-2018 07:00:10 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/aseonlin/public_html/wp-content/themes/Avada/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/aseonlin/public_html/wp-content/themes/Avada/index.php on line 1
+[06-Nov-2018 16:04:31 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/aseonlin/public_html/wp-content/themes/Avada/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/aseonlin/public_html/wp-content/themes/Avada/index.php on line 1
+[06-Nov-2018 16:04:33 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/aseonlin/public_html/wp-content/themes/Avada/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/aseonlin/public_html/wp-content/themes/Avada/index.php on line 1
+[10-Jan-2019 08:35:09 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/aseonlin/public_html/wp-content/themes/Avada/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/aseonlin/public_html/wp-content/themes/Avada/index.php on line 1
+[22-Aug-2019 07:55:14 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/aseonlin/public_html/wp-content/themes/Avada/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/aseonlin/public_html/wp-content/themes/Avada/index.php on line 1
+[12-Dec-2019 00:43:47 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function is_admin() in /home/aseonlin/public_html/wp-content/themes/Avada/functions.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/aseonlin/public_html/wp-content/themes/Avada/functions.php on line 31
+[13-Dec-2019 01:54:24 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function is_admin() in /home/aseonlin/public_html/wp-content/themes/Avada/functions.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/aseonlin/public_html/wp-content/themes/Avada/functions.php on line 31
